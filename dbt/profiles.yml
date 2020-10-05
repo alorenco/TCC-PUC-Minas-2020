@@ -1,0 +1,12 @@
+datawarehouse:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: "{{ env_var('POSTGRES_USER') }}"
+      pass: "{{ env_var('POSTGRES_PASS') }}"
+      port: 5432
+      dbname: dw
+      schema: analytics
+      threads: 8
