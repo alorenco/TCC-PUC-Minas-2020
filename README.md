@@ -4,9 +4,9 @@
 - Aluno: **Alessandro Cezar Lorençone**
 - Data: **Outubro/2020**
 
-## Fluxo do Processo
-
-![Diagrama do Fluxo ETL](https://github.com/alorenco/TCC-PUC-Minas-2020/tree/master/diagrama_fluxo_etl.png)
+***
+![](https://raw.githubusercontent.com/alorenco/TCC-PUC-Minas-2020/master/diagrama_fluxo_etl.png?token=ADTFTXA7ELOUYOVBEQOSESC7QCYQI)
+***
 
 ## Organização do Código Fonte
 
