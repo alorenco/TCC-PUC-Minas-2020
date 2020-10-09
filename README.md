@@ -4,6 +4,10 @@
 - Aluno: **Alessandro Cezar Lorençone**
 - Data: **Outubro/2020**
 
+## Fluxo do Processo
+
+![Diagrama do Fluxo ETL](https://github.com/alorenco/TCC-PUC-Minas-2020/tree/master/diagrama_fluxo_etl.png)
+
 ## Organização do Código Fonte
 
 Este repositório contém os códigos fonte do projeto, organizados da seguinte forma:
