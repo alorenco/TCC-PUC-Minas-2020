@@ -9,13 +9,13 @@
 Este repositório contém os códigos fonte do projeto, organizados da seguinte forma:
 
 1. Pasta: **[scripts](https://github.com/alorenco/TCC-PUC-Minas-2020/tree/master/scripts)**
-Contém o script python que fará a **extração** das tabelas de dados selecionadas do ERP Totvs RM que estão no MS SQL Server. O destino será o banco de dados Data Warehouse no PostgreSQL.
+Contém o script python que fará a **extração** das tabelas de dados selecionadas do ERP Totvs RM que estão no MS SQL Server. O destino será o banco de dados *Data Warehouse* no PostgreSQL.
 
 2. Pasta: **[dbt](https://github.com/alorenco/TCC-PUC-Minas-2020/tree/master/dbt)**
-Contém as estrutura completa do projeto responsável pelas etapas de **transformação** e **carga** das tabelas Fato e Dimensão. Para esta etapa foi utilizado o software **[dbt](https://github.com/fishtown-analytics/dbt)** (data build tool).
+Contém a estrutura do projeto responsável pelas etapas de **transformação** e **carga** das tabelas Fato e Dimensão. Para esta etapa foi utilizado o software **[dbt](https://github.com/fishtown-analytics/dbt)** (data build tool).
 
 3. Pasta: **[machine_learning](https://github.com/alorenco/TCC-PUC-Minas-2020/tree/master/machine_learning)**
-Contém o script python responsável por obter os dados de clientes ERP Totvs RM, aplicar o algorítmo K-Means para classificação e salvar o resultado no banco de dados Data Warehouse. Também foram disponibilizados os dados e o arquivo Jupyter Notebook utilizados no estudo.
+Contém o script python responsável por obter os dados de clientes do ERP Totvs RM, aplicar o algorítmo K-Means para classificação e salvar o resultado no banco de dados. Também foram disponibilizados os dados e o arquivo Jupyter Notebook utilizados no estudo.
 
 4. Arquivo: **[docker-compose.yml](https://github.com/alorenco/TCC-PUC-Minas-2020/blob/master/docker-compose.yml)**
 Arquivo com as configurações necessárias para a instância docker que executará o software **[Metabase](https://github.com/metabase/metabase)** utilizado para **apresentação** dos dashboards.
